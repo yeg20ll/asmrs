@@ -1,0 +1,309 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ASWRs</title>
+
+<script src="http://code.jquery.com/jquery.min.js"></script>
+
+<style type="text/css">
+		
+	
+#timeout{
+	position: absolute;
+	top: 350px;
+	left: 620px;
+	border: 1px solid #ddd;
+	background: #eee;
+	width: 500px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	color: #000000;
+	font-style: normal;
+	text-align: center;
+	font-size: 37px;
+	padding-bottom: 0px;
+}
+	
+	a.appButton {
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+	margin-left: 30px;
+}
+	a.appButton span{padding-top:200px;}
+	
+	
+	.btn1 {
+	background-color: #FF1247;
+	margin-right: 102px;
+	margin-left: 78px;
+	margin-top: 82px;
+	margin-bottom: 103px;
+	color: #FFFFFF;
+	text-align: left;
+	font-weight: bold;
+}
+	.btn2 {
+	background-color: #FF2070;
+	margin-top: 82px;
+	margin-left: 78px;
+	margin-right: 102px;
+	margin-bottom: 103px;
+}
+	.btn3 {
+	background-color: #FF1EC7;
+	margin-top: 82px;
+	margin-left: 78px;
+	margin-bottom: 103px;
+	margin-right: 102px;
+}
+	.btn4 {
+	background-color: #E927E4;
+	margin-top: 82px;
+	margin-left: 78px;
+	margin-bottom: 103px;
+	margin-right: 102px;
+}
+	.btn5 {
+	background-color: #B91EEC;
+	margin-top: 82px;
+	margin-left: 78px;
+	margin-bottom: 103px;
+	margin-right: 102px;
+}
+	.btn6 {
+	background-color: #8623EE;
+	margin-top: 82px;
+	margin-left: 78px;
+	margin-bottom: 103px;
+	margin-right: 102px;
+}
+	.btn7 {
+	background-color: #5227E6;
+	margin-top: 82px;
+	margin-left: 78px;
+	margin-bottom: 103px;
+	margin-right: 102px;
+}
+	.btn8 {
+	background-color: #1D3DEE;
+	margin-top: 82px;
+	margin-left: 78px;
+	margin-bottom: 103px;
+	margin-right: 102px;
+}
+	.btn9 {
+	background-color: #008CF5;
+	margin-top: 82px;
+	margin-left: 78px;
+	margin-bottom: 103px;
+	margin-right: 102px;
+}
+	.btn10 {
+	background-color: #00ABC2;
+	margin-top: 82px;
+	margin-left: 78px;
+	margin-bottom: 103px;
+	margin-right: 102px;
+}
+	.btn11 {
+	background-color: #00A78D;
+	margin-right: 102px;
+	margin-top: 82px;
+	margin-left: 78px;
+	margin-bottom: 103px;
+}
+	.btn12 {
+	background-color: #007355;
+	margin-right: 102px;
+	margin-top: 82px;
+	margin-left: 78px;
+	margin-bottom: 103px;
+}
+	.btn13 {
+	background-color: #24AA38;
+	margin-right: 102px;
+	margin-top: 82px;
+	margin-left: 78px;
+	margin-bottom: 129px;
+}
+	.btn14 {
+	background-color: #81BD24;
+	margin-top: 82px;
+	margin-left: 78px;
+	margin-bottom: 129px;
+	margin-right: 102px;
+}
+	.btn15 {
+	background-color: #C5D71B;
+	margin-top: 82px;
+	margin-left: 78px;
+	margin-bottom: 129px;
+	margin-right: 102px;
+}
+	.btn16 {
+	background-color: #E5CD00;
+	margin-bottom: 129px;
+	margin-left: 78px;
+	margin-top: 82px;
+	margin-right: 102px;
+}
+	.btn17 {
+	background-color: #F29C17;
+	margin-bottom: 129px;
+	margin-right: 102px;
+	margin-left: 78px;
+	margin-top: 82px;
+}
+	.btn18 {
+	background-color: #E96028;
+	margin-bottom: 129px;
+	margin-right: 102px;
+	margin-left: 78px;
+	margin-top: 82px;
+}
+
+body {
+	background-color: #000000;
+	color: #F9F9F9;
+}
+
+#wapper {
+	width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0px;
+}
+span {
+	color: #373031;
+	font-family: 筑紫B丸ゴシック;
+	font-style: normal;
+	font-size: 15px;
+}
+</style>
+</head>
+
+<body>
+<div id="wapper">
+
+<div id="timeout">
+  <p>このサイトでは音がでます。音量に注意してください。</br>ヘッドフォンを推奨します。</p>
+</div>
+
+<a class="appButton btn1 sound" rel="1"><span>FC</span></a>
+<a class="appButton btn2 sound" rel="2"><span>ぽてち</span></a>
+<a class="appButton btn3 sound" rel="3"><span>ちーざ</span></a>
+<a class="appButton btn4 sound" rel="4"><span>スライム</span></a>
+<a class="appButton btn5 sound" rel="5"><span>タイピング</span></a>
+<a class="appButton btn6 sound" rel="6"><span>本</span></a>
+<a class="appButton btn7 sound" rel="7"><span>ペン</span></a>                
+<a class="appButton btn8 sound" rel="8"><span>鉛筆</span></a>
+<a class="appButton btn9 sound" rel="9"><span>心音</span></a>
+<a class="appButton btn10 sound" rel="10"><span>炒め物</span></a>
+<a class="appButton btn11 sound" rel="11"><span>ソーダ</span></a>
+<a class="appButton btn12 sound" rel="12"><span>おかき</span></a>
+<a class="appButton btn13 sound" rel="13"><span>耳かき</span></a>
+<a class="appButton btn14 sound" rel="14"><span>さえずり</span></a>
+<a class="appButton btn15 sound" rel="15"><span>せせらぎ</span></a>
+<a class="appButton btn16 sound" rel="16"><span>未定</span></a>
+<a class="appButton btn17 sound" rel="17"><span>未定</span></a>
+<a class="appButton btn18 sound" rel="18"><span>未定</span></a>
+
+ </div>
+
+<audio id="overSound1" preload="auto">
+	<source src="fc.wav" type="audio/wav"><source src="fc.mp3" type="audio/mp3">
+	<p>※お使いのブラウザはHTML5のaudio要素をサポートしていないので音は鳴りません。</p>
+</audio>
+<audio id="overSound2" preload="auto">
+	<source src="poteti.wav" type="audio/wav"><source src="poteti.mp3" type="audio/mp3">
+	<p>※お使いのブラウザはHTML5のaudio要素をサポートしていないので音は鳴りません。</p>
+</audio>
+<audio id="overSound3" preload="auto">
+	<source src="ti-za.wav" type="audio/wav"><source src="ti-za.mp3" type="audio/mp3">
+	<p>※お使いのブラウザはHTML5のaudio要素をサポートしていないので音は鳴りません。</p>
+</audio>
+<audio id="overSound4" preload="auto">
+	<source src="sraimu.wav" type="audio/wav"><source src="sraimu.mp3" type="audio/mp3">
+	<p>※お使いのブラウザはHTML5のaudio要素をサポートしていないので音は鳴りません。</p>
+</audio>
+<audio id="overSound5" preload="auto">
+	<source src="taiping.wav" type="audio/wav"><source src="taiping.mp3" type="audio/mp3">
+	<p>※お使いのブラウザはHTML5のaudio要素をサポートしていないので音は鳴りません。</p>
+</audio>
+<audio id="overSound6" preload="auto">
+	<source src="book.wav" type="audio/wav"><source src="book.mp3" type="audio/mp3">
+	<p>※お使いのブラウザはHTML5のaudio要素をサポートしていないので音は鳴りません。</p>
+</audio>
+<audio id="overSound7" preload="auto">
+	<source src="pen.wav" type="audio/wav"><source src="pen.mp3" type="audio/mp3">
+	<p>※お使いのブラウザはHTML5のaudio要素をサポートしていないので音は鳴りません。</p>
+</audio>
+<audio id="overSound8" preload="auto">
+	<source src="enpitu.wav" type="audio/wav"><source src="enpitu.mp3" type="audio/mp3">
+	<p>※お使いのブラウザはHTML5のaudio要素をサポートしていないので音は鳴りません。</p>
+</audio>
+<audio id="overSound9" preload="auto">
+	<source src="sinzou.wav" type="audio/wav"><source src="sinzou.mp3" type="audio/mp3">
+	<p>※お使いのブラウザはHTML5のaudio要素をサポートしていないので音は鳴りません。</p>
+</audio>
+<audio id="overSound10" preload="auto">
+	<source src="itamemono.wav" type="audio/wav"><source src="itamemono.mp3" type="audio/mp3">
+	<p>※お使いのブラウザはHTML5のaudio要素をサポートしていないので音は鳴りません。</p>
+</audio>
+<audio id="overSound11" preload="auto">
+	<source src="soda.wav" type="audio/wav"><source src="soda.mp3" type="audio/mp3">
+	<p>※お使いのブラウザはHTML5のaudio要素をサポートしていないので音は鳴りません。</p>
+</audio>
+<audio id="overSound12" preload="auto">
+	<source src="okaki.wav" type="audio/wav"><source src="okaki.mp3" type="audio/mp3">
+	<p>※お使いのブラウザはHTML5のaudio要素をサポートしていないので音は鳴りません。</p>
+</audio>
+
+
+
+
+ 
+</body>
+
+
+
+<script type="text/javascript">
+$(function(){
+	
+	//音を鳴らす
+	$(".sound").mouseover(function(){
+		var relsound = "overSound" + $(this).attr("rel");
+		var changeimg = "url('image/" + $(this).attr("rel") + ".jpg')";
+		$(this).css("background-image",changeimg);
+		document.getElementById(relsound).currentTime = 0;
+		document.getElementById(relsound).play();
+	});
+	$(".sound").mouseleave(function(){
+		var relsound = "overSound" + $(this).attr("rel");
+		document.getElementById(relsound).pause();
+		$(this).css("background-image","none");
+		});
+
+});
+	
+	
+	
+$(document).ready(function() {
+        $("#timeout").fadeIn().queue(function() {
+            setTimeout(function(){$("#timeout").dequeue();
+            }, 3000);
+        });
+        $("#timeout").fadeOut();
+});
+</script>
+
+</html>
